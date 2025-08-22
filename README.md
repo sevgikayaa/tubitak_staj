@@ -9,3 +9,5 @@ galaktik_duzlem.ipynb adlı dosyada güneş merkezde olacak şekilde, güneş ç
 exoplanet_transit.ipynb adlı dosyada Nasa exoplanet archive üzerinden ötegezegenlerin verisi, TESS üzerinden ise bu ötegezegenlerin yıldızlarının verileri (ışık eğrileri) çekilerek bir ötegezegen ışık eğrisi oluşturulmuştur. Test amaçlı yalnızca 1 adet ötegezegenin eğrisi bulunmaktadır. 1 adet verinin bile işlenmesi yaklaşık 1 saat sürmüştür. Limit değeri None yazılarak keşfedilen bütün ötegezegenlerin eğrisi çizdirilebilir.
 
 lightkurve_data_analysis adlı doyada lightkurve kütüphanesi ile MAST portal üzerinden seçilen ötegezegen analizi ve TESS üzerinden gelen ötegezegen verilerini (pikselleri) ışık eğrisine çevirerek analizi yapılmıştır.
+
+KIC-11026764.ipynb --> ötegezegeni bulunmayan veya transit göstermeyen yıldızların ışık eğrisi analizi sonucu elde edilen grafikler

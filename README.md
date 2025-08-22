@@ -11,3 +11,4 @@ exoplanet_transit.ipynb adlı dosyada Nasa exoplanet archive üzerinden ötegeze
 lightkurve_data_analysis adlı doyada lightkurve kütüphanesi ile MAST portal üzerinden seçilen ötegezegen analizi ve TESS üzerinden gelen ötegezegen verilerini (pikselleri) ışık eğrisine çevirerek analizi yapılmıştır.
 
 KIC-11026764.ipynb ve KIC-9832227_KIC-11145123.ipynb --> ötegezegeni bulunmayan veya transit göstermeyen yıldızların ışık eğrisi analizi sonucu elde edilen grafikler
+Kepler-42-d.ipynb --> Kepler-42 yıldızının Kepler-42 d ötegezegeninin ışık eğrisi analizi

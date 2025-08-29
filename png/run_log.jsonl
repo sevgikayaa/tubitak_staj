@@ -1,0 +1,103 @@
+{"planet": "BD-14 3065 b", "status": "no_data"}
+{"host": "CoRoT-12", "mission": "TESS", "author": "SPOC", "status": "download_error", "error": "LightkurveError('Error in reading Data product /arf/scratch/egitim112/exoplanet_output2/lk_cache/mastDownload/TESS/tess2020351194500-s0033-0000000280210963-0203-s/tess2020351194500-s0033-0000000280210963-0203-s_lc.fits of type TessLightCurve .\\nThis file may be corrupt due to an interrupted download. Please remove it from your disk and try again.')"}
+{"host": "CoRoT-13", "mission": "TESS", "author": "SPOC", "status": "download_error", "error": "ValueError('I/O operation on closed file.')"}
+{"host": "CoRoT-10", "mission": "TESS", "author": "SPOC", "status": "download_error", "error": "ValueError('I/O operation on closed file.')"}
+{"host": "BD+20 594", "mission": "TESS", "author": "SPOC", "status": "download_error", "error": "ValueError('I/O operation on closed file.')"}
+{"host": "CoRoT-12", "mission": "TESS", "status": "download_error_auto", "error": "LightkurveError('Error in reading Data product /arf/scratch/egitim112/exoplanet_output2/lk_cache/mastDownload/TESS/tess2020351194500-s0033-0000000280210963-0203-s/tess2020351194500-s0033-0000000280210963-0203-s_lc.fits of type TessLightCurve .\\nThis file may be corrupt due to an interrupted download. Please remove it from your disk and try again.')"}
+{"planet": "CoRoT-12 b", "status": "no_data"}
+{"host": "CoRoT-21", "mission": "TESS", "author": "SPOC", "status": "download_error", "error": "ValueError('I/O operation on closed file.')"}
+{"host": "CoRoT-18", "mission": "TESS", "author": "SPOC", "status": "download_error", "error": "LightkurveError('Error in reading Data product /arf/scratch/egitim112/exoplanet_output2/lk_cache/mastDownload/TESS/tess2024353092137-s0087-0000000037168957-0284-s/tess2024353092137-s0087-0000000037168957-0284-s_lc.fits of type TessLightCurve .\\nThis file may be corrupt due to an interrupted download. Please remove it from your disk and try again.')"}
+{"host": "CoRoT-14", "mission": "TESS", "author": "SPOC", "status": "download_error", "error": "ValueError('I/O operation on closed file.')"}
+{"host": "CoRoT-21", "mission": "TESS", "status": "download_error_auto", "error": "ValueError('I/O operation on closed file.')"}
+{"host": "CoRoT-13", "mission": "TESS", "status": "download_error_auto", "error": "ValueError('I/O operation on closed file.')"}
+{"host": "CoRoT-1", "mission": "TESS", "author": "SPOC", "status": "download_error", "error": "ValueError('I/O operation on closed file.')"}
+{"host": "AU Mic", "mission": "TESS", "author": "SPOC", "status": "download_error", "error": "ValueError('I/O operation on closed file.')"}
+{"host": "CoRoT-10", "mission": "TESS", "status": "download_error_auto", "error": "TableMergeError(\"The 'quality' columns have incompatible types: ['int32', 'int32', 'int32', 'str32']\")"}
+{"planet": "CoRoT-13 b", "status": "no_data"}
+{"planet": "CoRoT-21 b", "status": "no_data"}
+{"host": "CoRoT-19", "mission": "TESS", "author": "SPOC", "status": "download_error", "error": "ValueError('I/O operation on closed file.')"}
+{"host": "AU Mic", "mission": "TESS", "author": "SPOC", "status": "download_error", "error": "ValueError('I/O operation on closed file.')"}
+{"planet": "CoRoT-10 b", "status": "no_data"}
+{"host": "CoRoT-18", "mission": "TESS", "status": "download_error_auto", "error": "LightkurveError('Error in reading Data product /arf/scratch/egitim112/exoplanet_output2/lk_cache/mastDownload/TESS/tess2024353092137-s0087-0000000037168957-0284-s/tess2024353092137-s0087-0000000037168957-0284-s_lc.fits of type TessLightCurve .\\nThis file may be corrupt due to an interrupted download. Please remove it from your disk and try again.')"}
+{"host": "CoRoT-14", "mission": "TESS", "status": "download_error_auto", "error": "ValueError('I/O operation on closed file.')"}
+{"planet": "CoRoT-18 b", "status": "no_data"}
+{"planet": "CoRoT-14 b", "status": "no_data"}
+{"host": "CoRoT-20", "mission": "TESS", "author": "SPOC", "status": "download_error", "error": "ValueError('I/O operation on closed file.')"}
+{"planet": "CoRoT-11 b", "status": "ok", "mission": "TESS", "author": "SPOC"}
+{"planet": "CoRoT-23 b", "status": "ok", "mission": "TESS", "author": "SPOC"}
+{"planet": "CoRoT-17 b", "status": "ok", "mission": "TESS", "author": "SPOC"}
+{"planet": "CoRoT-19 b", "status": "ok", "mission": "TESS", "author": "QLP"}
+{"planet": "CoRoT-1 b", "status": "ok", "mission": "TESS", "author": "QLP"}
+{"host": "CoRoT-20", "mission": "TESS", "status": "download_error_auto", "error": "TableMergeError(\"The 'quality' columns have incompatible types: ['int32', 'int32', 'int32', 'int32', 'int32', 'int32', 'int32', 'int32', 'int32', 'int32', 'int32', 'int16', 'str32']\")"}
+{"planet": "CoRoT-20 b", "status": "no_data"}
+{"planet": "CoRoT-16 b", "status": "ok", "mission": "TESS", "author": "SPOC"}
+{"planet": "AU Mic b", "status": "ok", "mission": "TESS", "author": "QLP"}
+{"planet": "CoRoT-22 b", "status": "ok", "mission": "TESS", "author": "SPOC"}
+{"planet": "AU Mic c", "status": "ok", "mission": "TESS", "author": "QLP"}
+{"planet": "BD+20 594 b", "status": "ok", "mission": "TESS", "author": "QLP"}
+{"planet": "CoRoT-2 b", "status": "ok", "mission": "TESS", "author": "SPOC"}
+{"planet": "CoRoT-24 b", "status": "ok", "mission": "TESS", "author": "SPOC"}
+{"status": "summary", "ok": 12, "skip": 0, "no_data": 8, "error": 0}
+{"host": "EPIC 206024342", "mission": "TESS", "author": "SPOC", "status": "download_error", "error": "LightkurveError('Error in reading Data product /arf/scratch/egitim112/exoplanet_output2/lk_cache/mastDownload/TESS/tess2021232031932-s0042-0000000075266189-0213-s/tess2021232031932-s0042-0000000075266189-0213-s_lc.fits of type TessLightCurve .\\nThis file may be corrupt due to an interrupted download. Please remove it from your disk and try again.')"}
+{"host": "EPIC 206042996", "mission": "TESS", "author": "SPOC", "status": "download_error", "error": "LightkurveError('Not recognized as a supported data product:\\n/arf/scratch/egitim112/exoplanet_output2/lk_cache/mastDownload/TESS/tess2021232031932-s0042-0000000012785571-0213-s/tess2021232031932-s0042-0000000012785571-0213-s_lc.fits\\nThis file may be corrupt due to an interrupted download. Please remove it from your disk and try again.')"}
+{"host": "EPIC 206042996", "mission": "TESS", "status": "download_error_auto", "error": "LightkurveError('Not recognized as a supported data product:\\n/arf/scratch/egitim112/exoplanet_output2/lk_cache/mastDownload/TESS/tess2021232031932-s0042-0000000012785571-0213-s/tess2021232031932-s0042-0000000012785571-0213-s_lc.fits\\nThis file may be corrupt due to an interrupted download. Please remove it from your disk and try again.')"}
+{"host": "EPIC 206317286", "mission": "TESS", "author": "SPOC", "status": "download_error", "error": "LightkurveError('Not recognized as a supported data product:\\n/arf/scratch/egitim112/exoplanet_output2/lk_cache/mastDownload/TESS/tess2021232031932-s0042-0000000250956593-0213-s/tess2021232031932-s0042-0000000250956593-0213-s_lc.fits\\nThis file may be corrupt due to an interrupted download. Please remove it from your disk and try again.')"}
+{"host": "EPIC 206024342", "mission": "TESS", "author": "SPOC", "status": "download_error", "error": "LightkurveError('Not recognized as a supported data product:\\n/arf/scratch/egitim112/exoplanet_output2/lk_cache/mastDownload/TESS/tess2025127075000-s0092-0000000075266189-0289-s/tess2025127075000-s0092-0000000075266189-0289-s_lc.fits\\nThis file may be corrupt due to an interrupted download. Please remove it from your disk and try again.')"}
+{"host": "EPIC 206024342", "mission": "TESS", "author": "QLP", "status": "download_error", "error": "LightkurveError('Error in reading Data product /arf/scratch/egitim112/exoplanet_output2/lk_cache/mastDownload/HLSP/hlsp_qlp_tess_ffi_s0092-0000000075266189_tess_v01_llc/hlsp_qlp_tess_ffi_s0092-0000000075266189_tess_v01_llc.fits of type QLP .\\nThis file may be corrupt due to an interrupted download. Please remove it from your disk and try again.')"}
+{"host": "EPIC 206024342", "mission": "TESS", "author": "QLP", "status": "download_error", "error": "ValueError('I/O operation on closed file.')"}
+{"host": "EPIC 206024342", "mission": "TESS", "author": "SPOC", "status": "download_error", "error": "LightkurveError('Not recognized as a supported data product:\\n/arf/scratch/egitim112/exoplanet_output2/lk_cache/mastDownload/TESS/tess2025127075000-s0092-0000000075266189-0289-s/tess2025127075000-s0092-0000000075266189-0289-s_lc.fits\\nThis file may be corrupt due to an interrupted download. Please remove it from your disk and try again.')"}
+{"host": "K2-50", "mission": "TESS", "author": "SPOC", "status": "download_error", "error": "ValueError('I/O operation on closed file.')"}
+{"host": "EPIC 206024342", "mission": "TESS", "status": "download_error_auto", "error": "LightkurveError('Not recognized as a supported data product:\\n/arf/scratch/egitim112/exoplanet_output2/lk_cache/mastDownload/TESS/tess2025127075000-s0092-0000000075266189-0289-s/tess2025127075000-s0092-0000000075266189-0289-s_lc.fits\\nThis file may be corrupt due to an interrupted download. Please remove it from your disk and try again.')"}
+{"host": "EPIC 201595106", "mission": "TESS", "author": "SPOC", "status": "download_error", "error": "ValueError('I/O operation on closed file.')"}
+{"host": "EPIC 206042996", "mission": "K2", "author": "K2", "status": "download_error", "error": "ValueError('I/O operation on closed file.')"}
+{"host": "EPIC 206042996", "mission": "K2", "status": "download_error_auto", "error": "LightkurveError('Error in reading Data product /arf/scratch/egitim112/exoplanet_output2/lk_cache/mastDownload/K2/ktwo206042996-c03_lc/ktwo206042996-c03_llc.fits of type KeplerLightCurve .\\nThis file may be corrupt due to an interrupted download. Please remove it from your disk and try again.')"}
+{"planet": "EPIC 206042996 c", "status": "no_data"}
+{"host": "EPIC 206042996", "mission": "TESS", "author": "SPOC", "status": "download_error", "error": "ValueError('I/O operation on closed file.')"}
+{"host": "EPIC 201497682", "mission": "TESS", "author": "SPOC", "status": "download_error", "error": "ValueError('I/O operation on closed file.')"}
+{"host": "EPIC 201757695", "mission": "TESS", "author": "SPOC", "status": "download_error", "error": "ValueError('I/O operation on closed file.')"}
+{"host": "EPIC 206024342", "mission": "TESS", "status": "download_error_auto", "error": "LightkurveError('Not recognized as a supported data product:\\n/arf/scratch/egitim112/exoplanet_output2/lk_cache/mastDownload/TESS/tess2025127075000-s0092-0000000075266189-0289-s/tess2025127075000-s0092-0000000075266189-0289-s_lc.fits\\nThis file may be corrupt due to an interrupted download. Please remove it from your disk and try again.')"}
+{"host": "K2-16", "mission": "TESS", "author": "SPOC", "status": "download_error", "error": "ValueError('I/O operation on closed file.')"}
+{"host": "K2-166", "mission": "TESS", "author": "SPOC", "status": "download_error", "error": "ValueError('I/O operation on closed file.')"}
+{"host": "EPIC 211822797", "mission": "TESS", "author": "SPOC", "status": "download_error", "error": "ValueError('I/O operation on closed file.')"}
+{"host": "EPIC 206317286", "mission": "TESS", "author": "SPOC", "status": "download_error", "error": "ValueError('I/O operation on closed file.')"}
+{"host": "EPIC 201497682", "mission": "TESS", "author": "QLP", "status": "download_error", "error": "ValueError('I/O operation on closed file.')"}
+{"host": "EPIC 206024342", "mission": "K2", "author": "K2", "status": "download_error", "error": "LightkurveError('Not recognized as a supported data product:\\n/arf/scratch/egitim112/exoplanet_output2/lk_cache/mastDownload/K2/ktwo206024342-c03_lc/ktwo206024342-c03_llc.fits\\nThis file may be corrupt due to an interrupted download. Please remove it from your disk and try again.')"}
+{"host": "EPIC 206024342", "mission": "K2", "status": "download_error_auto", "error": "LightkurveError('Not recognized as a supported data product:\\n/arf/scratch/egitim112/exoplanet_output2/lk_cache/mastDownload/K2/ktwo206024342-c03_lc/ktwo206024342-c03_llc.fits\\nThis file may be corrupt due to an interrupted download. Please remove it from your disk and try again.')"}
+{"planet": "EPIC 206024342 b", "status": "no_data"}
+{"host": "K2-166", "mission": "TESS", "author": "QLP", "status": "download_error", "error": "ValueError('I/O operation on closed file.')"}
+{"host": "EPIC 206024342", "mission": "K2", "author": "K2", "status": "download_error", "error": "ValueError('I/O operation on closed file.')"}
+{"host": "EPIC 206024342", "mission": "K2", "status": "download_error_auto", "error": "LightkurveError('Error in reading Data product /arf/scratch/egitim112/exoplanet_output2/lk_cache/mastDownload/K2/ktwo206024342-c03_lc/ktwo206024342-c03_llc.fits of type KeplerLightCurve .\\nThis file may be corrupt due to an interrupted download. Please remove it from your disk and try again.')"}
+{"planet": "EPIC 206024342 c", "status": "no_data"}
+{"host": "EPIC 211822797", "mission": "TESS", "author": "QLP", "status": "download_error", "error": "ValueError('I/O operation on closed file.')"}
+{"planet": "EPIC 206215704 b", "status": "ok", "mission": "TESS", "author": "QLP"}
+{"host": "K2-168", "mission": "TESS", "author": "SPOC", "status": "download_error", "error": "ValueError('I/O operation on closed file.')"}
+{"host": "EPIC 201497682", "mission": "TESS", "status": "download_error_auto", "error": "ValueError('I/O operation on closed file.')"}
+{"host": "EPIC 206042996", "mission": "TESS", "status": "download_error_auto", "error": "TableMergeError(\"The 'quality' columns have incompatible types: ['int32', 'int32', 'int32', 'str32']\")"}
+{"host": "EPIC 206042996", "mission": "K2", "author": "K2", "status": "download_error", "error": "LightkurveError('Error in reading Data product /arf/scratch/egitim112/exoplanet_output2/lk_cache/mastDownload/K2/ktwo206042996-c03_lc/ktwo206042996-c03_llc.fits of type KeplerLightCurve .\\nThis file may be corrupt due to an interrupted download. Please remove it from your disk and try again.')"}
+{"host": "EPIC 206042996", "mission": "K2", "status": "download_error_auto", "error": "LightkurveError('Error in reading Data product /arf/scratch/egitim112/exoplanet_output2/lk_cache/mastDownload/K2/ktwo206042996-c03_lc/ktwo206042996-c03_llc.fits of type KeplerLightCurve .\\nThis file may be corrupt due to an interrupted download. Please remove it from your disk and try again.')"}
+{"planet": "EPIC 206042996 b", "status": "no_data"}
+{"host": "K2-168", "mission": "TESS", "author": "QLP", "status": "download_error", "error": "ValueError('I/O operation on closed file.')"}
+{"host": "EPIC 211822797", "mission": "TESS", "status": "download_error_auto", "error": "ValueError('I/O operation on closed file.')"}
+{"planet": "EPIC 201427007 b", "status": "ok", "mission": "TESS", "author": "SPOC"}
+{"host": "K2-16", "mission": "TESS", "status": "download_error_auto", "error": "ValueError('I/O operation on closed file.')"}
+{"host": "EPIC 201757695", "mission": "TESS", "status": "download_error_auto", "error": "ValueError('I/O operation on closed file.')"}
+{"host": "K2-50", "mission": "TESS", "status": "download_error_auto", "error": "TableMergeError(\"The 'quality' columns have incompatible types: ['int32', 'int32', 'int32', 'int32', 'str32']\")"}
+{"host": "K2-168", "mission": "TESS", "status": "download_error_auto", "error": "ValueError('I/O operation on closed file.')"}
+{"host": "K2-166", "mission": "TESS", "status": "download_error_auto", "error": "ValueError('I/O operation on closed file.')"}
+{"planet": "EPIC 206317286 b", "status": "ok", "mission": "TESS", "author": "QLP"}
+{"planet": "EPIC 201595106 b", "status": "ok", "mission": "TESS", "author": "QLP"}
+{"planet": "EPIC 206032309 b", "status": "ok", "mission": "TESS", "author": "SPOC"}
+{"host": "EPIC 211822797", "mission": "K2", "author": "K2", "status": "download_error", "error": "ValueError('I/O operation on closed file.')"}
+{"planet": "EPIC 201497682 b", "status": "ok", "mission": "K2", "author": "K2"}
+{"planet": "EPIC 201754305 d", "status": "ok", "mission": "K2", "author": "K2"}
+{"planet": "EPIC 201757695.02", "status": "ok", "mission": "K2", "author": "K2"}
+{"planet": "EPIC 201615463 c", "status": "ok", "mission": "K2", "author": "K2"}
+{"planet": "EPIC 201841433 b", "status": "ok", "mission": "TESS", "author": "SPOC"}
+{"planet": "EPIC 205950854 c", "status": "ok", "mission": "K2", "author": "K2"}
+{"host": "EPIC 211822797", "mission": "K2", "status": "download_error_auto", "error": "ValueError('I/O operation on closed file.')"}
+{"planet": "EPIC 211822797 b", "status": "no_data"}
+{"planet": "EPIC 206024342 d", "status": "ok", "mission": "TESS", "author": "QLP"}
+{"planet": "EPIC 201833600 c", "status": "ok", "mission": "K2", "author": "K2"}
+{"planet": "EPIC 206317286 c", "status": "ok", "mission": "TESS", "author": "QLP"}
+{"planet": "EPIC 201238110 b", "status": "ok", "mission": "TESS", "author": "SPOC"}
+{"status": "summary", "ok": 15, "skip": 0, "no_data": 5, "error": 0}

@@ -36,6 +36,7 @@ LOGFILE = os.path.join(OUTPUT_DIR, "run_log.jsonl")
 INPUT_FILE = "/arf/scratch/egitim112/transit_data.csv"
 
 MAX_WORKERS = max(4, os.cpu_count() or 4)
+START_INDEX = 40   # kaçıncı satırdan başlayacağını burada ayarlarsın
 MAX_TARGETS = 20
 MISSION_PRIORITY = ["TESS", "Kepler", "K2"]
 AUTHOR_PRIORITY = ["SPOC", "QLP", "Kepler", "K2"]
@@ -146,7 +147,7 @@ def rows_from_local_file(path, name_col=0, header=True, max_targets=None):
     rows = []
     if needed_cols.issubset(dfcols):
         if max_targets:
-            df = df.iloc[:max_targets]
+            df = df.iloc[START_INDEX:START_INDEX + max_targets]
         for _, r in df.iterrows():
             rows.append({k: r[k] for k in ["pl_name", "hostname", "pl_orbper", "pl_tranmid", "pl_trandur"]})
         return rows
@@ -433,3 +434,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

@@ -1,4 +1,4 @@
-# tubitak_staj
+# TÜBİTAK Staj
 
 11 Ağustos 2025 - 19 Eylül 2025 tarihleri arasında Gebze TÜBİTAK Temel Bilimler Araştırma Enstitüsü'nde yaptığım gönüllü staj süresi boyunca yaptıklarım.
 
@@ -13,3 +13,18 @@ lightkurve_data_analysis adlı doyada lightkurve kütüphanesi ile MAST portal �
 KIC-11026764.ipynb ve KIC-9832227_KIC-11145123.ipynb --> ötegezegeni bulunmayan veya transit göstermeyen yıldızların ışık eğrisi analizi sonucu elde edilen grafikler
 
 Kepler-42-d.ipynb --> Kepler-42 yıldızının Kepler-42 d ötegezegeninin ışık eğrisi analizi
+
+**Transit-Analysis-Pipeline**
+exoplanet_transit.ipynb kodunun modifiye edilmiş halidir.
+
+📂 Yüklenen CSV dosyasından gezegen adaylarının listesini okuyor.
+
+🔎 Her bir hedef için veri arıyor (isim → koordinat → TESS/Kepler arşivi).
+
+📉 Transit ışık eğrisi indiriyor ve işliyor.
+
+🖼️ PNG grafik + 📑 CSV tablo üretiyor.
+
+📝 Sonuçları manifest + log dosyasına kaydediyor.
+
+⚡ Çok iş parçacıklı (ThreadPoolExecutor) çalışıyor → aynı anda birden fazla hedef işleniyor.

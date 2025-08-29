@@ -295,7 +295,62 @@ def fold_plot_save(planet, host, P_day, t0_bjd, dur_hr, lc, mission, author):
         "png": os.path.basename(png_path),
         "csv": os.path.basename(csv_path)
     })
+    # === Transit metrikleri hesapla ===
+    try:
+        flux_vals = np.asarray(getattr(folded.flux, "value", folded.flux))
+        err_vals = np.asarray(flux_err) if flux_err is not None else None
 
+        depth = 1.0 - np.nanmin(flux_vals)     # Transit derinliği
+        avg_flux = np.nanmean(flux_vals)       # Ortalama flux
+        flux_var = np.nanvar(flux_vals)        # Varyans
+        snr = depth / np.nanmedian(err_vals) if err_vals is not None else None
+
+        # --- Yeni Hesaplamalar ---
+        R_sun = 6.957e8        # m
+        R_earth = 6.371e6      # m
+        M_sun = 1.989e30       # kg
+        AU = 1.496e11          # m
+        G = 6.67430e-11        # SI
+
+        # Yıldız parametrelerini CSV'den oku (NaN olabilir)
+        R_star = df.loc[df["pl_name"] == planet, "st_rad"].values[0] if "st_rad" in df.columns else np.nan
+        M_star = df.loc[df["pl_name"] == planet, "st_mass"].values[0] if "st_mass" in df.columns else np.nan
+
+        Rp_Rearth = None
+        a_AU = None
+        if not np.isnan(R_star):
+            Rp_Rearth = (R_star * R_sun / R_earth) * np.sqrt(depth)
+        if not np.isnan(M_star) and P_day is not None:
+            P_sec = P_day * 86400
+            a_m = (G * M_star * M_sun * (P_sec**2) / (4 * np.pi**2))**(1/3)
+            a_AU = a_m / AU
+
+        # --- Metrics sözlüğü ---
+        metrics = {
+            "planet": planet,
+            "host": host,
+            "period_day": P_day,
+            "duration_hr": dur_hr,
+            "depth": depth,
+            "snr": snr,
+            "avg_flux": avg_flux,
+            "flux_var": flux_var,
+            "Rp_Rearth": Rp_Rearth,
+            "a_AU": a_AU
+        }
+
+        # Metrics CSV'sine ekle
+        metrics_file = os.path.join(OUTPUT_DIR, "metrics.csv")
+        newfile = not os.path.exists(metrics_file)
+        with _LOG_LOCK:
+            with open(metrics_file, "a", newline='', encoding="utf-8") as mf:
+                writer = csv.DictWriter(mf, fieldnames=list(metrics.keys()))
+                if newfile:
+                    writer.writeheader()
+                writer.writerow(metrics)
+
+    except Exception as e:
+        save_line(LOGFILE, {"planet": planet, "status": "metrics_error", "error": repr(e)})
 def already_done(planet: str) -> bool:
     base = sanitize(planet)
     return (os.path.exists(os.path.join(PNG_DIR, f"{base}.png")) and
@@ -434,4 +489,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 

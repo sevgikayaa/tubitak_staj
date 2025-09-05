@@ -51,14 +51,10 @@ P_catalog = tbl["pl_orbper"][0].to_value("d")  # birimi 'd' (gün) olarak çıka
 host = str(tbl["hostname"][0])
 print(f"{planet} için katalog periyodu: {P_catalog} gün, host: {host}")
 
-# Önceki kodunde kullandığın "search_result = lk.search_lightcurve(host, author="Kepler", cadence="long")" kısmı gerekli değil
-# Zaten direkt olarak tpf aratıp indirip tpfler üzerinde çalışıyoruz.
 tpf = lk.search_targetpixelfile(planet, author="Kepler", cadence="long").download_all(download_dir=str(outdir))
 print("TPF kaydedildi:")
 print("İndirilen TPF sayısı:", len(tpf))
 
-#### Save TPF plots with masks as a Grid #  
-## Bu kısımda tüm tpd cadenceleri bir grid şeklinde çizdirip save ediyoruz.
 N = len(tpf)        # number of elements
 ncols = 5           # fixed number of columns
 nrows = math.ceil(N / ncols)  # number of rows needed
@@ -100,10 +96,7 @@ for lc in lc_collection:
 plot_path = os.path.join(outdir, "collection_plot.png")
 plt.savefig(plot_path, dpi=300)
   
-# Burada belki en son yaptığımız gibi len(tpf)'ye bölmek çok iyi bir fikir değil. 
-# Şimdilik yine eski kullandığın şekliyle bırakıp sadece x eksenini log scale çizdirelim.
-# Kepler ile detekte edilen gezegenlerin period dağılımına bir bakar mısın ? 
-# Belki şimdilik oradaki max period değerini alabiliriz.  
+  
 min_period, max_period = 0.5, ((lc_stitched.time[-1].value - lc_stitched.time[0].value) / 3)
 print(min_period, max_period)
 
@@ -192,3 +185,4 @@ def cleanup_mast(outdir: Path):
         print("mastDownload klasörü bulunamadı")
 
 cleanup_mast(outdir)
+
